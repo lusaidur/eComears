@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.navbar{
+    height: 118px;
+    border-bottom: 0;
+}
+
+.searchber{
+    width: 100%;
+}
+
+.menubar{
+    width: 100%;
+}
+
+.menubar ul{
+    margin: 10px 0;
+    width: 100%;
+}
+
+.menubar ul li{
+    height: 57px;
+    width: 100%;
+}
+
+.side-menu{
+    width: 34%;
+    z-index: 20;
+    top: 133px;
+    position: fixed;
+    font-size: 12px;  
+    display: none;
+    background: #f1f3f4;
+}
+
+.side-menu ul li ul{
+    top: 133px;
+}
+
+.side-menu ul li:hover ul{
+    margin-left: 31%;
+}
+
+#menu-btn{
+    display: block;
+}
+
+.slider{
+    width: 100%;
+    margin-left: 0;
+}
